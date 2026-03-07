@@ -1,0 +1,10 @@
+site_name: Loomi Trading Company
+site_description: Gear Up. Get Out. Go Play.
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Golfiasta: golfiasta.md
+  - Privacy Policy: privacy.md
