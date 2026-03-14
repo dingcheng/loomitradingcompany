@@ -1,8 +1,8 @@
-# Loomi Trading Company, LLC
+# Loomi Company
 
 ## Gear Up. Get Out. Go Play.
 
-Loomi Trading Company is a modern retail and software company built around the sports and lifestyles we love. We curate premium products for golf, snow sports, and everyday life — and we build the tools that make your time on the course even better.
+Loomi Company is a modern retail and software company built around the sports and lifestyles we love. We curate premium products for golf, snow sports, and everyday life — and we build the tools that make your time on the course even better.
 
 ---
 
@@ -53,7 +53,7 @@ We keep things simple. No bloated catalogs. No subscription traps. No unnecessar
 **Loomi Trading Company, LLC**
 
 For inquiries, partnerships, or support:
-**Email:** loomitradingcompany@gmail.com
+**Email:** contact@loomicompany.com
 
 ---
 
