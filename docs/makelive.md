@@ -48,6 +48,8 @@ Browse videos from external drives, SD cards, and folders — perfect for turnin
 
 MakeLive is free to download with all core features included. No monthly fees, no ads, no account required.
 
+[Download on the App Store](https://apps.apple.com/us/app/makelive-live-photo-creator/id6761287865)
+
 ---
 
 *MakeLive is available on the App Store for iPhone.*

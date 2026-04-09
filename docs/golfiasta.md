@@ -48,6 +48,8 @@ Keep score as you play with a beautifully designed scorecard. Tap any hole to en
 
 Golfiasta is a one-time purchase. No monthly fees, no ads, no account required. Your data stays on your device and syncs securely via iCloud.
 
+[Download on the App Store](https://apps.apple.com/us/app/golfiasta-golf-gps/id6760437254)
+
 ---
 
 *Course layouts are derived from [OpenStreetMap](https://openstreetmap.org), available under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl). GPS distances are approximate and intended for informational purposes only.*

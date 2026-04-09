@@ -32,7 +32,7 @@ Golfiasta is our golf utility app for iOS. It puts real course data in your pock
 - **Satellite hole maps** — View every hole from above with fairways, greens, tees, and bunkers rendered on a satellite map.
 - **Live GPS distances** — Get accurate front, center, and back distances to the green updated in real time as you move.
 
-[Learn more about Golfiasta](golfiasta.md)
+[Learn more about Golfiasta](golfiasta.md) | [Download on the App Store](https://apps.apple.com/us/app/golfiasta-golf-gps/id6760437254)
 
 ### DollyCam — Dolly Zoom Camera
 
@@ -42,7 +42,7 @@ DollyCam turns your iPhone into a one-person dolly zoom rig. The app tracks a fa
 - **Dual camera** — Record from front and back cameras simultaneously with PiP or split-screen layouts.
 - **Pro video controls** — 4K, ProRes 422, 10 built-in LUTs, cinematic shutter lock, manual focus with peaking, and more.
 
-[Learn more about DollyCam](dollycam.md)
+[Learn more about DollyCam](dollycam.md) | *Coming soon to the App Store*
 
 ### MakeLive — Video to Live Photo Converter
 
@@ -52,7 +52,7 @@ MakeLive turns any video into a Live Photo. Pick a video, trim it to the perfect
 - **Thumbnail control** — Pick the exact still frame for your Live Photo.
 - **Import from anywhere** — Browse videos from external drives, SD cards, and folders.
 
-[Learn more about MakeLive](makelive.md)
+[Learn more about MakeLive](makelive.md) | [Download on the App Store](https://apps.apple.com/us/app/makelive-live-photo-creator/id6761287865)
 
 ---
 
