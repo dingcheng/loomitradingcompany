@@ -7,6 +7,8 @@ theme:
 nav:
   - Home: index.md
   - Golfiasta: golfiasta.md
+  - DollyCam: dollycam.md
+  - MakeLive: makelive.md
   - Privacy Policy: privacy.md
 
 use_directory_urls: false
