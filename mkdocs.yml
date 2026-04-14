@@ -11,5 +11,9 @@ nav:
   - DollyCam: dollycam.md
   - MakeLive: makelive.md
   - Privacy Policy: privacy.md
+  - Golfiasta (中文): golfiasta-zh.md
+  - DollyCam (中文): dollycam-zh.md
+  - MakeLive (中文): makelive-zh.md
+  - 隐私政策: privacy-zh.md
 
 use_directory_urls: false
