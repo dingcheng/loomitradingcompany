@@ -94,7 +94,7 @@ Apply .cube LUTs in real time — on the preview and baked into the recording:
 
 DollyCam is a single purchase with no subscription. Every feature is included — no feature gates, no usage limits. The custom folder save feature is available as an optional one-time in-app purchase.
 
-*Coming soon to the App Store.*
+[Download on the App Store](https://apps.apple.com/us/app/dollycam-cinematic-filming/id6761457989)
 
 ---
 

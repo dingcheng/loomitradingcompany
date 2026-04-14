@@ -94,7 +94,7 @@ DollyCam将您的iPhone变成一台单人推拉变焦设备。应用实时追踪
 
 DollyCam为一次性购买，无订阅费用。所有功能全部包含——没有功能限制、没有使用上限。自定义文件夹保存功能可作为可选的一次性应用内购买。
 
-*即将在App Store上线。*
+[在App Store下载](https://apps.apple.com/cn/app/dollycam-cinematic-filming/id6761457989)
 
 ---
 
