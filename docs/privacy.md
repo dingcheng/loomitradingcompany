@@ -40,7 +40,7 @@ DollyCam is a cinematic video camera app with dolly zoom, dual camera, and pro v
 
 ### Face Detection
 
-DollyCam uses Apple's on-device Vision framework to detect and track faces for the dolly zoom feature. Face detection runs entirely on your device. Face data is used only for real-time zoom adjustment and is never stored, logged, or transmitted.
+DollyCam uses Apple's on-device Vision framework to detect and track faces. Face detection is used for two features: the dolly zoom effect (real-time zoom adjustment based on face size) and the Beauty Cam filter (skin smoothing applied to the detected face region in the preview and recording). All face detection runs entirely on your device. Face data is used only in real time for these features and is never stored, logged, or transmitted.
 
 ### Network Requests
 
