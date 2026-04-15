@@ -23,7 +23,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
@@ -1040,7 +1040,7 @@
 <li><strong>Photo Library</strong> — Used to save recorded videos and to display your recordings in the built-in video library.</li>
 </ul>
 <h3 id="face-detection">Face Detection</h3>
-<p>DollyCam uses Apple's on-device Vision framework to detect and track faces for the dolly zoom feature. Face detection runs entirely on your device. Face data is used only for real-time zoom adjustment and is never stored, logged, or transmitted.</p>
+<p>DollyCam uses Apple's on-device Vision framework to detect and track faces. Face detection is used for two features: the dolly zoom effect (real-time zoom adjustment based on face size) and the Beauty Cam filter (skin smoothing applied to the detected face region in the preview and recording). All face detection runs entirely on your device. Face data is used only in real time for these features and is never stored, logged, or transmitted.</p>
 <h3 id="network-requests_1">Network Requests</h3>
 <p>DollyCam makes no network requests. The only external communication is with Apple's servers for in-app purchase verification, handled entirely by Apple's StoreKit framework.</p>
 <h3 id="data-storage_1">Data Storage</h3>
