@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          set -eux
+          mkdir -p _site
+          # Copy site files, excluding repo-management files that shouldn't ship.
+          rsync -a --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_site' \
+            --exclude='deploy' \
+            --exclude='deploy.sh' \
+            --exclude='README.md' \
+            --exclude='.gitignore' \
+            --exclude='.DS_Store' \
+            ./ _site/
+          # Ensure Pages doesn't run Jekyll (belt and suspenders).
+          touch _site/.nojekyll
+          # Verify CNAME made it in.
+          test -f _site/CNAME && grep -q '^loomicompany.com$' _site/CNAME
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

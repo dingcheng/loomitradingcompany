@@ -1,0 +1,49 @@
+# Caddyfile for self-hosting loomicompany.com
+#
+# Usage:
+#   1. Put this file at /etc/caddy/Caddyfile (or your Caddy config location)
+#   2. Copy the site files to /var/www/loomicompany (or adjust `root` below)
+#   3. Run: sudo systemctl reload caddy
+#
+# Caddy will automatically provision a Let's Encrypt certificate.
+
+loomicompany.com, www.loomicompany.com {
+    root * /var/www/loomicompany
+    encode zstd gzip
+
+    # Serve static files; fall back to 404.html for unknown paths
+    try_files {path} {path}.html {path}/index.html
+    file_server
+
+    # Redirect www -> apex
+    @www host www.loomicompany.com
+    redir @www https://loomicompany.com{uri} permanent
+
+    # Custom 404
+    handle_errors {
+        @404 expression {err.status_code} == 404
+        rewrite @404 /404.html
+        file_server
+    }
+
+    # Cache static assets aggressively (hashed CSS/JS/images)
+    @static {
+        path /assets/*
+    }
+    header @static Cache-Control "public, max-age=31536000, immutable"
+
+    # Reasonable default cache for HTML
+    @html {
+        path *.html /
+    }
+    header @html Cache-Control "public, max-age=300, must-revalidate"
+
+    # Security headers
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+        -Server
+    }
+}
